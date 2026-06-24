@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset besar
+plantvillage dataset/
+*.zip
+
+# Model hasil training
+models/
+*.keras
+*.h5
+*.pkl
+
+# Output hasil training / preprocessing
+outputs/
+
+# VS Code / system files
+.vscode/
+desktop.ini
+.DS_Store
+
+# Notebook cache
+.ipynb_checkpoints/
